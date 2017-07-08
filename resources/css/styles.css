@@ -1,15 +1,51 @@
 
 /* universal styles */
 
+html {
+  font-size: 18px;
+  font-family: Helvetica,sans-serif;
+  background-color: white;
+}
+body {
+  line-height: 1.4rem;
+}
+.flex {
+  display: flex;
+}
+.container {
+max-width: 920px;
+margin: auto;
+}
 
 /* header style */
 
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
+  height:30rem;
+  padding-top: 1rem;
+}
+nav {
+  background-color: cadetblue;
+}
+.main-banner {
+  background-color: white;
+}
 /* supporting style */
 
+.supporting {
+  display: flex;
+  justify-content: center;
+}
 
 /* services style */
 
+.title {
+  background-color: cadetblue;
+}
 
 /* information Style */
 
